@@ -136,3 +136,29 @@ body {
     background-color: var(--section-overlay);
   }
 }
+
+@media screen and (max-width: 499px) {
+  .section_inputs > input {
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem;
+    font-size: 13px;
+    border-radius: 0.4rem;
+    border: 0.8px solid white;
+    font-weight: 200;
+  }
+
+  .button {
+    padding: 10px 35px;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 0.4rem;
+    background-color: white;
+    border: none;
+  }
+
+  .temperature > h1 {
+    font-size: 40px;
+    font-weight: 200px;
+  }
+}
