@@ -2,6 +2,7 @@
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      gap: 2.5rem;
+     padding: 1rem;
 }
 
 .card {
@@ -23,9 +24,9 @@
      justify-content: center;
      gap: 5px;
      margin-bottom: 12px;
- }
- 
-.description_card_icon>small {
+}
+
+.description_card_icon > small {
      text-transform: capitalize;
 }
 
